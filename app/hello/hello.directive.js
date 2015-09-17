@@ -1,5 +1,5 @@
-module.exports = function(awModule) {
-	awModule.directive('hello', function() {
+export default function(awModule) {
+	awModule.directive('hello', () => {
 		return {
 			restrict: 'E',
 			scope: {},
