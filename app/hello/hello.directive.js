@@ -1,5 +1,7 @@
 export default function(awModule) {
-	require('./hello.css');
+
+	require('./hello.scss');
+
 	awModule.directive('hello', () => {
 		return {
 			restrict: 'E',
@@ -10,4 +12,5 @@ export default function(awModule) {
 			}
 		};
 	});
-};
+
+}
