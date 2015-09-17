@@ -1,4 +1,3 @@
 var angular = require('angular');
-
-angular.module('aw', []);
-
+var awModule = angular.module('aw', []);
+require('./hello')(awModule);
