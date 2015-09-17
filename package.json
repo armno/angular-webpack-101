@@ -4,7 +4,8 @@
   "scripts": {
     "test": "NODE_ENV=test karma start",
     "start": "node node_modules/.bin/webpack-dev-server --content-base app",
-    "build": "NODE_ENV=production node node_modules/.bin/webpack && cp app/index.html dist/index.html"
+    "build": "NODE_ENV=production node node_modules/.bin/webpack && cp app/index.html dist/index.html",
+		"serve": "http-server -p 9999 dist/"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.5",
