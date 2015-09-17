@@ -22,3 +22,7 @@ but then it becomes more clear and will be more if i work on many modules.
 - i heard many good things about webstorm for quite a while. i actually tried for full day for a couple times. it didn't work out for me: things are too slow.
 - then today (2015.09.17) i give it another try by doing a fresh install of webstorm 11 EAP. this is what i customize webstorm so far.
   - disable *most* of the plugins. (i was a bit surprised by number of plugins that were enabled by default. i don't use most of them.)
+  - map `⌘ + p` to `⌘ + o` (sublime text's "go to anything")
+  - map `⌘ + r` to `go to symbol` (sublime-ish again)
+  - i feel IDEAVim (vim emulation for webstorm) really slow the ide down. don't know why but i had to disable this too. meaning i have no vim mode :(
+  - another bug i had with IDEAVim: it adds an extra closing curly brackets. `function() {}` will be `function(){}}` which is super annoying.
