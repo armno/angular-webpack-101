@@ -5,13 +5,14 @@ export default function(awModule) {
 	}
 	require('./hello.scss');
 
-	awModule.directive('hello', () => {
+	awModule.directive('hello', function($log) {
 		return {
 			restrict: 'E',
 			template: require('./hello.html'),
 			controllerAs: 'hello',
 			controller: function() {
 				this.label = 'Hello world';
+				$log.log('hello');
 			}
 		};
 	});
