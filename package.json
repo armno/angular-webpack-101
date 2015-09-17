@@ -1,0 +1,11 @@
+{
+  "name": "angular-webpack-101",
+	"repository": "",
+	"scripts": {
+		"start": "node node_modules/.bin/webpack-dev-server --content-base app"
+	},
+  "devDependencies": {
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.11.0"
+  }
+}
