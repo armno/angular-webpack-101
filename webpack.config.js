@@ -1,6 +1,6 @@
 var webpack = require('webpack');
 
-module.exports = {
+var config = {
 	context: __dirname + '/app',
 	entry: './index.js',
 	output: {
@@ -22,3 +22,9 @@ module.exports = {
 		]
 	}
 };
+
+if (process.env.NODE_ENV === 'production') {
+	config.output.path = __dirname + '/dist';
+}
+
+module.exports = config;
