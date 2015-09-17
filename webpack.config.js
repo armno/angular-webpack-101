@@ -17,8 +17,8 @@ var config = {
 	module: {
 		loaders: [
 			{ test: /\.js$/, loaders: ['ng-annotate', 'babel'], exclude: /node_modules/ },
-			{ test: /\.html$/, loader: 'raw', exclude: /node_modules/ },
-			{ test: /\.scss$/, loader: 'style!css!sass', exclude: /node_modules/ }
+			{ test: /\.html$/, loaders: ['raw'], exclude: /node_modules/ },
+			{ test: /\.scss$/, loaders: ['style', 'css', 'sass'], exclude: /node_modules/ }
 		]
 	}
 };
