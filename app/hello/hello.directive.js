@@ -1,4 +1,5 @@
 export default function(awModule) {
+	require('./hello.css');
 	awModule.directive('hello', () => {
 		return {
 			restrict: 'E',
