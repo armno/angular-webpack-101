@@ -40,6 +40,7 @@
   "devel": true,
   // make JSHint not complain about `require` in our gulpfile.js
   "node": true,
+	"esnext": true,
   // predefined global variables
   "predef": [
     "Modernizr",
