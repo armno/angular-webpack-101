@@ -3,6 +3,7 @@ export default function(awModule) {
 	if (ON_TEST) {
 		require('./hello.directive.spec')(awModule);
 	}
+
 	require('./hello.scss');
 
 	awModule.directive('hello', function($log) {
