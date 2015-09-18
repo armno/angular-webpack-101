@@ -7,7 +7,7 @@ Learning Webpack with an Angular project with [egghead.io](https://egghead.io/se
 - this is my 1st trial on
   - `webpack` (of course)
   - writing an angular app in module style (even though it has only 1 directive)
-  - live a day with WebStorm
+  - and try to live another day with WebStorm
 - webpack keeps config in `webpack.config.js` which is a CommonJS module. `entry` and `output.filename` are minimum requirement of the module's props.
 - webpack takes things as "modules": everything is a module in webpack world. webpack's job is basically "bundle" or connect all modules together with correct dependency list.
 - `loaders` are webpack's real magic. they are like `tasks` in gulp or grunt.
